@@ -1,4 +1,4 @@
-#Initiail Project Credentials
+# Initiail Project Credentials
 
 ----Username----
      admin
