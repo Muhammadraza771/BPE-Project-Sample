@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Latest compiled and minified CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+
+    <!-- Latest compiled and minified JavaScript -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webpage</title>
@@ -8,7 +19,7 @@
       h1 {
         font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
           sans-serif;
-        margin-left: 100px;
+        margin-left: 10px;
         margin-top: 70px;
         color: darkslategray;
       }
@@ -34,10 +45,23 @@
     </style>
   </head>
   <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">BlueFire Technologies</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <button class="btn btn-danger navbar-btn">Register</button>
+        <button class="btn btn-danger navbar-btn">Login</button>
+      </div>
+    </nav>
+
     <h1 id="hd1">Home-Based Work Services</h1>
-    <a class="links" href="">About Us</a>
-    <a class="links" href="">Services</a>
-    <a class="links" href="">Contact Us</a>
 
     <h2 class="para"><em>Remote Regional Work</em></h2>
     <img src="/images/11_Success-1.jpg" alt="scd" />
